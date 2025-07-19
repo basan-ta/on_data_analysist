@@ -1,6 +1,12 @@
-import pandas as pd 
-from basic_setup import data 
-df = pd.DataFrame(data)
+import pandas as pd
+from pathlib import Path
 
-#printing the  dataframe
+# Correct path to the CSV file
+data = Path('data') / 'employee_data.csv'
+
+# Read the CSV into a DataFrame
+df = pd.read_csv(data)
+
+# Print the DataFrame
 print(df.head())
+print(df.describe())
