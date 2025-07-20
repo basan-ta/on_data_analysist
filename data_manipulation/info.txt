@@ -1,1 +1,2 @@
-Here will the info of learning 
+I have learned from the datacamp course, data manipulation with pandas 
+
