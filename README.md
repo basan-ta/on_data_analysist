@@ -1,6 +1,5 @@
 # 📊 Data Analysis Portfolio
 
-[![GitHub stars](https://img.shields.io/github/stars/basan-ta/on_data_analysis?style=social)](https://github.com/basan-ta/on_data_analysis/stargazers)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)](https://python.org)
 [![Pandas](https://img.shields.io/badge/Pandas-1.3%2B-orange?logo=pandas&logoColor=white)](https://pandas.pydata.org)
 
