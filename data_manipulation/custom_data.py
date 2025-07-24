@@ -1,6 +1,8 @@
 import pandas as pd
 import numpy as np
 import os
+import random
+
 from datetime import date, timedelta
 
 # Create data directory
@@ -22,6 +24,28 @@ female_names = [
     'Apsara', 'Bimala', 'Dipa', 'Kamala', 'Namrata', 'Pratima', 'Rupa', 'Sarita', 'Tamara', 'Usha',
     'Abha', 'Binita', 'Chhaya', 'Dhanmaya', 'Gauri', 'Jyoti', 'Laxana', 'Mohana', 'Nanda', 'Runa'
 ]
+# Generate 1000 unique random names from a-z
+def generate_name():
+    vowels = 'aeiou'
+    consonants = 'bcdfghjklmnpqrstvwxyz'
+    name_length = random.randint(3, 8)
+    
+    # Create pronounceable names with alternating consonants/vowels
+    name = ''
+    for i in range(name_length):
+        if i % 2 == 0:
+            name += random.choice(consonants)
+        else:
+            name += random.choice(vowels)
+    return name.capitalize()
+
+# Generate unique names
+all_names = set()
+while len(all_names) < 1000:
+    all_names.add(generate_name())
+all_names = list(all_names)
+
+
 
 # Create dataset with 1000 records
 records = 1000

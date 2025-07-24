@@ -1,3 +1,70 @@
+### General ###
+.DS_Store
+*.log
+*.sqlite
+*.sqlite3
+*.bak
+*.tmp
+
+###Python 
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.ipynb_checkpoints/
+
+### Virtual Environments #
+venv/
+.env/
+.venv/
 env/
-.env*.local
+ENV/
+venv.bak/
+
+### Environment Variables ###
 .env
+.env.local
+.env*.local
+
+### Jupyter ###
+.jupyter/
+notebooks/*.nbconvert.ipynb
+
+### Data & Models ###
+*.csv
+*.xlsx
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+*.model
+*.pt
+*.onnx
+*.bin
+
+### Visualization Outputs ###
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+*.html
+
+### IDE & Editor ###
+.vscode/
+.idea/
+*.swp
+*.swo
+
+### OS Generated ###
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+### Package Managers ###
+pip-selfcheck.json
