@@ -1,0 +1,36 @@
+1. Data Definition Language (DDL)
+   Purpose: Defines and manages the structure of database objects like tables, schemas, and indexes.
+   Commands:
+   - CREATE – Create new database objects (tables, views, indexes, etc.)
+   - ALTER – Modify existing database objects
+   - DROP – Delete database objects
+   - TRUNCATE – Remove all records from a table but keep structure
+   - RENAME – Rename a database object
+   - (Optional in some DBMS) COMMENT – Add comments to database objects
+
+2. Data Query Language (DQL)
+   Purpose: Query and retrieve data from the database.
+   Command:
+   - SELECT – Retrieve data from one or more tables or views
+
+3. Data Manipulation Language (DML)
+   Purpose: Manipulates or modifies data stored in tables.
+   Commands:
+   - INSERT – Add new records to a table
+   - UPDATE – Modify existing records in a table
+   - DELETE – Remove records from a table
+   - (Optional in some DBMS) MERGE – Insert or update records based on conditions
+
+4. Data Control Language (DCL)
+   Purpose: Controls access and permissions to the database.
+   Commands:
+   - GRANT – Give privileges to users
+   - REVOKE – Remove privileges from users
+
+5. Transaction Control Language (TCL)
+   Purpose: Manages transactions to ensure data consistency.
+   Commands:
+   - COMMIT – Save all changes permanently
+   - ROLLBACK – Undo changes since the last commit
+   - SAVEPOINT – Set a point to rollback to
+   - SET TRANSACTION – Define transaction properties
